@@ -6,7 +6,6 @@ import pandas as pd
 
 def data_read_excel(file_path):
     df = pd.read_excel(file_path)
-    print(df)
 
 
 if __name__ == '__main__':
